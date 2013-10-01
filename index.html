@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="jscharts.js"></script>
+        <script src="getaCM.js"></script>
+        <script type='text/javaScript'>
+            $(function(){
+                    graphValues('http://contextminer.org/api.php/campaigns?u=chirags%40rutgers.edu&cid=516&source=youtube&everytime=1&ytid=wm4o1fYtCTQ&page=4&limit=25&fmt=json')
+                    });
+        </script>
+
+    </head>
+
+    <body>
+        <div id="viewCountContainer" style="width:600px;height:300px"></div>
+    </body>
+</html>
